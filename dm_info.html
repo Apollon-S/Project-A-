@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um projeto que irá revolucionar e melhorar a educação da sua comunidade!">
+  <title>Project A - Informações</title>
+  <link rel="stylesheet" type="text/css" href="darkmode.css">
+  <link rel="icon" href="icons8-a-100.png">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="Logo_P.A.png" alt="Logo do Project A">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href="dm_index.html">Home</a>
+      <a class="cabecalho-menu-item" href="dm_main_idea.html">Ideia Principal</a>
+      <a class="cabecalho-menu-item" href="dm_conc.html">Conclusão</a>
+      <a class="cabecalho-menu-item" href="info.html">Light Mode</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Pesquisa</h1>
+        <h3 class="conteudo-principal-escrito-subtitulo">A pesquisa, denominada Resposta Educacional à Pandemia de Covid-19 no Brasil, aponta que pouco mais de 53% das escolas públicas conseguiram manter o calendário letivo original no ano passado. No ensino privado, cerca de 70% das escolas conseguiram manter a previsão inalterada.</h3>
+      </div>
+      <img class="conteudo-principal-imagem"src="bot.svg" alt="Imagem do Bot">
+    </section>
+
+    <section class="conteudo-secundario" id="roll">
+      <h3 class="conteudo-secundario-titulo">Ajuste no calendário letivo</h3>
+      <p class="conteudo-secundario-paragrafo">O levantamento mostra que 99,3% das escolas brasileiras suspenderam as atividades presenciais. Em função disso, parte delas também ajustou a data do término do ano letivo de 2020, visando o enfrentamento das consequências pedagógicas decorrentes dessa suspensão. As escolas públicas sentiram uma necessidade maior de fazer esta adequação.
+    </p>
+      <h3 class="conteudo-secundario-titulo">Acesso à internet</h3>
+      <p class="conteudo-secundario-paragrafo">A mesma desigualdade é verificada na distribuição do acesso à rede de internet para uso exclusivamente administrativo dos estabelecimentos públicos. Na região Norte do Brasil, mais de quatro em cada cinco (81,5%) escolas públicas não acessa à internet para esta forma de uso e pouco menos de três em cada quatro se encontra na mesma situação na região Nordeste (73,8%), sendo estas as regiões de mais baixo acesso à internet, mesmo que para fins exclusivamente administrativos e não pedagógicos. Cabe ressaltar, entretanto, que a ausência deste modo de uso da rede internet é a realidade média de pouco mais de um terço das escolas das regiões Sudeste (38,2%), Sul (30,3%) e Centro-Oeste (36,9%).</p>
+        <h3 class="conteudo-secundario-titulo">O que os estudantes pensam?</h3>
+        <p class="conteudo-secundario-paragrafo">Com 33 mil participantes, “Juventudes e a Pandemia do Coronavírus”, pesquisa realizada pelo CONJUVE (Conselho Nacional da Juventude) em parceria com Em Movimento, Fundação Roberto Marinho, Mapa Educação, Porvir, Rede Conhecimento Social, Unesco e Visão Mundial faz um sério alerta para gestores educacionais: quase 30% dos jovens pensam em deixar a escola e, entre os que planejam fazer o Enem (Exame Nacional do Ensino Médio), 49% já pensaram em desistir. Isso tudo porque a maioria sente grande dificuldade de estudar em casa. O que atrapalha não é só de computador e internet rápida para acessar conteúdos e acompanhar as aulas, mas o próprio equilíbrio emocional e a capacidade de organização para estudar.</p>
+        <h3 class="conteudo-secundario-titulo">Impactos Econômicos</h3>
+        <p class="conteudo-secundario-paragrafo">Um estudo do Insper (Instituto de Ensino e Pesquisa) sobre o impacto da perda de aprendizado neste ano ao longo da vida dos estudantes aponta que os jovens podem perder R$ 42,5 mil de renda se os conteúdos não forem repostos e eles seguirem para o mercado de trabalho com esses déficits. “Não foi planejado, não houve transição para esse novo modelo. Então, houve perdas e precisamos olhar agora para elas”, disse o economista Ricardo Paes de Barros, que elaborou o estudo, à Folha de S. Paulo.</p>
+        <img src="graf1.webp">
+        <img src="graf2.jpg">
+      </section>
+  
+      <button onclick="topFunction()" id="top" title="Go to top">⇑</button>
+      
+<script>
+  var mybutton = document.getElementById("top");
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+  
+    </main>
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="Project_A_logo_bottom.png">
+  </footer>
+</body>

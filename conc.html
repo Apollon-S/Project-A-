@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um projeto que irá revolucionar e melhorar a educação da sua comunidade!">
+  <title>Project A - Conclusão</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="icons8-a-100.png">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="Logo_P.A.png" alt="Logo do Project A">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href="index.html">Home</a>
+      <a class="cabecalho-menu-item" href="main_idea.html">Ideia Principal</a>
+      <a class="cabecalho-menu-item" href="info.html">Informações</a>
+      <a class="cabecalho-menu-item" href="dm_conc.html">Dark Mode</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Conclusão</h1>
+        <h3 class="conteudo-principal-escrito-subtitulo">Se incluído, nosso projeto tende a identificar defeitos e pontos fortes na educação da instituição. Mas como após a pandemia, até mesmo pela auto-estima dos alunos, a motivação vem caindo e consequentemente, nosso projeto será inócuo. </h3>
+      </div>
+      <img class="conteudo-principal-imagem"src="bot2.png" alt="Imagem do Bot2">
+    </section>
+
+    <section class="conteudo-secundario" id="roll">
+      <h3 class="conteudo-secundario-titulo">Como podemos fazer os alunos se sentirem motivados?</h3>
+      <p class="conteudo-secundario-paragrafo">Caso houvesse mais ganhos a curto prazo para os alunos que estudassem, como prêmios e menções, a motivação aumentaria consideravelmente, todo humano age com base em seus interesses, logo se o prêmio for do interesse do aluno, ele irá começar a estudar.
+    </p>
+      <h3 class="conteudo-secundario-titulo">Se o Project A fosse incrementado:</h3>
+      <p class="conteudo-secundario-paragrafo">A administração escolar seria facilitada, se a administração optasse por dar aulas de reforço assim como o Project A recomenda, o desempenho dos alunos provavelmente iria melhorar ou, ao menos, se manter.</p>
+  
+      <button onclick="topFunction()" id="top" title="Go to top">⇑</button>
+      
+      <script>
+        var mybutton = document.getElementById("top");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    </main>
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="Project_A_logo_bottom.png">
+  </footer>
+</body>

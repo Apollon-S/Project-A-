@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um projeto que irá revolucionar e melhorar a educação da sua comunidade!">
+  <title>Project A</title>
+  <link rel="stylesheet" type="text/css" href="darkmode.css">
+  <link rel="icon" href="icons8-a-100.png">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="Logo_P.A.png" alt="Logo do Project A">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href="#roll">Objetivo</a>
+      <a class="cabecalho-menu-item" href="dm_main_idea.html">Ideia Principal</a>
+      <a class="cabecalho-menu-item" href="dm_info.html">Informações</a>
+      <a class="cabecalho-menu-item" href="dm_conc.html">Conclusão</a>
+      <a class="cabecalho-menu-item" href="index.html">Light Mode</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Project A</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Análise da educação e bem-estar da sua comunidade!</h2>
+        <button class="conteudo-principal-escrito-botao" onclick="showModal()">Entenda mais!  </button>
+      </div>
+      <img class="conteudo-principal-imagem"src="bot.svg" alt="Imagem do bot">
+    </section>
+
+    <section class="conteudo-secundario" id="roll">
+      <h3 class="conteudo-secundario-titulo"> O que queremos?</h3>
+      <p class="conteudo-secundario-paragrafo">1. Analisar de <strong>forma estatística</strong> o desempenho dos alunos de sua comunidade.</p>
+      <p class="conteudo-secundario-paragrafo">2. Apontar e identificar os <strong>defeitos e pontos fortes</strong> na educação de sua comunidade.</p>
+      <p class="conteudo-secundario-paragrafo">3. Tudo isso afim de <strong>recomendar</strong> um reforço na educação de sua comunidade.</p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="Project_A_logo_bottom.png">
+  </footer>
+</body>
+
+
+<body>
+  <div class="modal" id="modal">
+      <div class="modal-content">
+          <span class="close-button" onclick="closeModal()">
+              &times;
+          </span>
+          <img class="gifcorrect" src="icons8-checkmark.gif">
+          <p>A Project A visa, por meio de um sistema, um gerenciamento melhor do desempenho individual dos alunos na escola, assim gerando uma melhor administração nas ações da instituição.</div>
+           
+      </div>
+  </div>
+
+<script>
+  function showModal() {
+    var element = document.getElementById("modal");
+    element.classList.add("show-modal");
+}
+
+function closeModal() {
+    var element = document.getElementById("modal");
+    element.classList.remove("show-modal");
+}
+</script>
+
+<button onclick="topFunction()" id="top" title="Go to top">⇑</button>
+      
+<script>
+  var mybutton = document.getElementById("top");
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+</html> 
